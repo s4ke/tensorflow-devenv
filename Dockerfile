@@ -7,6 +7,7 @@ RUN apt-get update && \
         git \
         vim \
         virtualenv \
+        python3-venv \
         python3-virtualenv \
         python3-setuptools \
         openssh-server
