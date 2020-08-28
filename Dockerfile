@@ -7,7 +7,6 @@ RUN apt-get update && \
         git \
         vim \
         htop \
-        monitor \
         virtualenv \
         python3-venv \
         python3-virtualenv \
