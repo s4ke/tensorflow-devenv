@@ -6,10 +6,13 @@ RUN apt-get update && \
         ssh \
         git \
         vim \
+        htop \
+        monitor \
         virtualenv \
         python3-venv \
         python3-virtualenv \
         python3-setuptools \
         openssh-server
+
 
 CMD ["bash", "-c", "source /etc/bash.bashrc && service ssh restart && jupyter notebook --notebook-dir=/tf --ip 0.0.0.0 --no-browser --allow-root"]
